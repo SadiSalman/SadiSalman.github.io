@@ -1023,9 +1023,42 @@ p {
 	/* End Education */
 
 	/* contact  */
-	#contact .row {
+	#contact {
+        padding: 20px 10px;
+    }
+
+    #contact .top-header h1 {
+        font-size: 1.8rem;
+    }
+
+    #contact .top-header span {
+        font-size: 1rem;
+    }
+
+    #contact .row {
         flex-direction: column;
         gap: 10px;
+    }
+
+    #contact .contact-info,
+    #contact .form-control {
+        flex: none;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .input-field {
+        font-size: 1.2rem;
+    }
+
+    .text-area textarea {
+        font-size: 1.2rem;
+        height: 80px;
+    }
+
+    .form-button .btn {
+        font-size: 1.2rem;
+        padding: 10px 20px;
     }
 	/* End contact  */
 }
