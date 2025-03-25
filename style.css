@@ -1121,5 +1121,28 @@ p {
 		padding: 6px 12px;
 		font-size: 0.8rem;
 	}
+	#contact {
+        padding: 20px 10px;
+    }
+
+    #contact .top-header h1 {
+        font-size: 1.5rem;
+    }
+
+    #contact .top-header span {
+        font-size: 0.9rem;
+    }
+
+    #contact .row {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #contact .contact-info,
+    #contact .form-control {
+        flex: none;
+        width: 100%; /* Ensures elements take up full screen width */
+        padding: 10px;
+    }
 }
 /* End Media Query For Phone */
