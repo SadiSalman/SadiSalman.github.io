@@ -1122,9 +1122,10 @@ p {
 		font-size: 0.8rem;
 	}
 #contact {
-        padding: 20px 15px;
+        padding: 20px;
+        margin: 0 auto;
         width: 100%;
-        overflow: hidden;
+        box-sizing: border-box;
     }
 
     #contact .row {
@@ -1141,10 +1142,12 @@ p {
         text-align: center;
     }
 
-    .input-field, textarea {
+    .input-field,
+    textarea {
         width: 100%;
         padding: 10px;
         border: 1px solid #ccc;
+        border-radius: 5px;
     }
 
     .form-button .btn {
